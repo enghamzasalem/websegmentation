@@ -1,0 +1,1 @@
+<script nonce="n47nxLYfGeQknUmAvyat4Q" type="application/ld+json">{"@context": "https://schema.org", "@type": "Organization", "url": "https://news.google.com", "logo": "https://lh3.googleusercontent.com//J6_coFbogxhRI9iM864NL_liGXvsQp2AupsKei7z0cNNfDvGUmWUy20nuUhkREQyrpY4bEeIBuc=rj-w300-h300-l95-c0xffffff"}</script>

@@ -1,0 +1,86 @@
+{
+   "@context":"http://schema.org",
+   "@graph":[
+      {
+         "@type":"ReportageNewsArticle",
+         "url":"https://www.bbc.com/arabic/world-60847328",
+         "publisher":{
+            "@type":"NewsMediaOrganization",
+            "name":"BBC News عربي",
+            "publishingPrinciples":"https://www.bbc.com/arabic/institutional-49283069",
+            "logo":{
+               "@type":"ImageObject",
+               "width":1024,
+               "height":576,
+               "url":"https://news.files.bbci.co.uk/ws/img/logos/og/arabic.png"
+            }
+         },
+         "thumbnailUrl":"https://ichef.bbci.co.uk/news/1024/branded_arabic/C5E7/production/_123836605_girlscryingbbc.png",
+         "image":{
+            "@type":"ImageObject",
+            "width":1024,
+            "height":576,
+            "url":"https://ichef.bbci.co.uk/news/1024/branded_arabic/C5E7/production/_123836605_girlscryingbbc.png"
+         },
+         "mainEntityOfPage":{
+            "@type":"WebPage",
+            "@id":"https://www.bbc.com/arabic/world-60847328",
+            "name":"أفغانستان تحت حكم طالبان: الحركة تتراجع عن قرارها بفتح المدارس الثانوية للبنات"
+         },
+         "headline":"أفغانستان تحت حكم طالبان: الحركة تتراجع عن قرارها بفتح المدارس الثانوية للبنات",
+         "description":"حركة طالبان تعلن تمديد إغلاق المدارس الثانوية للبنات إلى حين وضع خطة تتعلق بالزي المدرسي تتوافق مع الشريعة الإسلامية والأمم المتحدة والولايات المتحدة تدينان القرار.",
+         "datePublished":"2022-03-23T09:49:40.000Z",
+         "dateModified":"2022-03-23T12:12:03.000Z",
+         "inLanguage":{
+            "@type":"Language",
+            "name":"Arabic",
+            "alternateName":"ar"
+         },
+         "about":[
+            {
+               "@type":"Place",
+               "name":"أفغانستان"
+            },
+            {
+               "@type":"Thing",
+               "name":"طالبان",
+               "sameAs":[
+                  "http://dbpedia.org/resource/Taliban"
+               ]
+            },
+            {
+               "@type":"Thing",
+               "name":"التعليم",
+               "sameAs":[
+                  "http://dbpedia.org/resource/Education"
+               ]
+            },
+            {
+               "@type":"Thing",
+               "name":"حقوق المرأة",
+               "sameAs":[
+                  "http://dbpedia.org/resource/Women%27s_rights"
+               ]
+            },
+            {
+               "@type":"Thing",
+               "name":"مرأة",
+               "sameAs":[
+                  "http://dbpedia.org/resource/Woman"
+               ]
+            }
+         ],
+         "author":{
+            "@type":"NewsMediaOrganization",
+            "name":"BBC News عربي",
+            "logo":{
+               "@type":"ImageObject",
+               "width":1024,
+               "height":576,
+               "url":"https://news.files.bbci.co.uk/ws/img/logos/og/arabic.png"
+            },
+            "noBylinesPolicy":"https://www.bbc.com/arabic/institutional-49283069#authorexpertise"
+         }
+      }
+   ]
+}
