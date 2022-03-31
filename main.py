@@ -28,8 +28,8 @@ for l in next_page_node:
     soup = BeautifulSoup(response, 'lxml')
     start=url.find("http://") if url.find("http://")!=-1 else url.find("https://")+1
     t = url[start+11:url.find(" ",start+11)]
-    f = open("newHTML/"+str(len(allarr))+".html", "x")
-    ff = open("newHTMLFull/"+str(len(allarr))+".html", "x")
+    f = open("newHTML1/"+str(len(allarr))+".html", "x")
+    ff = open("newHTMLfull1/"+str(len(allarr))+".html", "x")
     # f = open(str(url)+".txt", "x")
     f.write(str(soup.find("script",{"type":"application/ld+json"})))
     ff.write(str(soup))
