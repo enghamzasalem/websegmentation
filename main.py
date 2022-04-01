@@ -54,15 +54,16 @@ for l in next_page_node:
     print(body)
     # start=url.find("http://") if url.find("http://")!=-1 else url.find("https://")+1
     # t = url[start+11:url.find(" ",start+11)]
-    fn = open("newHTMLinjected3/"+str(len(allarr))+".json", "x")
+    fn = open("newHTMLinjected4/"+str(len(allarr))+".json", "x")
     if articledivs is not None:
+      description = soup.find("meta",{'name':'description'})
       token=url.split('https://')[1].split('/')[0]
       top_level=token.split('.')[-2]+'.'+token.split('.')[-1]
       jsonID={
                     "@context": "https://schema.org",
                     "@type": "WebPage",
                     "name": h1,
-                    "description":  articledivs.text,
+                    "description":  description.get("content"),
                     "publisher": {
                         "@type": "Organization",
                         "name": soup.title.get_text().split("|")[-1],
