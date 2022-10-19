@@ -1,0 +1,1 @@
+{'@context': 'http://schema.org', '@type': 'Organization', '@id': 'https://muhtwaplus.com/#organization', 'url': 'https://muhtwaplus.com/', 'name': 'محتوى بلس', 'logo': {'@type': 'ImageObject', 'url': 'https://muhtwaplus.com/wp-content/uploads/2020/12/logo-fg.png'}, 'sameAs': ['https://www.facebook.com/muhtwaplusnews', 'https://twitter.com/muhtwaplus']}
